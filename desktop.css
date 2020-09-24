@@ -1,0 +1,138 @@
+.col-1{width:8.33% ;}
+.col-2{width: 16.66%;}
+.col-3{width:25% ;}
+.col-4{width:33.33% ;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width:66.66% ;}
+.col-9{width:75% ;}
+.col-10{width: 83.33%;}
+.col-11{width:91.66%;}
+.col-12{width: 100%;}
+
+.navMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navMenu
+
+.navLogo{
+    text-align: left;
+}
+.nav_header h2{
+    text-align: right;
+    font-size: 2.2rem;
+}
+
+.navMenu a{
+  background-color: transparent;
+  padding:5px 10px;
+  margin: 20px 0;
+}
+
+/* portfolio */
+
+.prof_top_img{
+    width: 120px;
+    right: 100px;
+    top: 20px;
+    transition: width 2s ,transform 2s;
+}
+
+.prof_top_img:hover{
+    width: 140px;
+}
+
+
+.prof_bottom_img{
+    width: 120px;
+    left: 140px;
+    bottom: 20px;
+    transition: width 2s ,transform 2s;
+}
+
+.prof_bottom_img:hover{
+    width: 140px;
+}
+
+.prof_desc p{
+    width: 50%;
+    color: gray;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+/* .abouMe */
+.abouMeImg {
+    margin-top: 100px;
+}
+.abouMeImg img{
+    width: 250px;
+    height: 270px;
+}
+.abouMeDesc p{
+    text-align: left;
+}
+
+
+/* <!-- proffession exprience Start --> */
+
+.professionalExprience{
+    padding: 1% 5%;
+}
+
+/* <!-- proffession exprience End --> */
+
+
+            /* Acheivements & Contact Starts From Here */
+
+.achievement{
+    padding-right: 50px;
+}
+
+.contact button{
+
+width:130px;
+
+}
+
+.contact_link{
+	position:relative;
+}
+
+.mediaBtn {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	margin-top:200px;
+	
+}
+
+
+            /* Acheivements & Contact Ends From Here */
+			
+			
+			
+			/*Footer CSS*/
+			
+		.footer_menu{
+margin-top:12px
+		}			
+			
+			
+			.footer_menu a{
+				display:inline;
+				margin:10px;
+			}
+			
+			
+			
+			
+			
+			
+			
